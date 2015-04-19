@@ -1,0 +1,574 @@
+﻿Log file open, 04/17/15 18:02:31
+LogInit:Display: Running engine for game: mobileTest1
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.18-01.02.31:739][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.18-01.02.31:794][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.18-01.02.31:806][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.18-01.02.31:817][  0]LogInit: Object subsystem initialized
+[2015.04.18-01.02.31:819][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.18-01.02.31:819][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/David/Documents/Unreal Projects/mobileTest1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.18-01.02.31:819][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.18-01.02.31:819][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/David/Documents/Unreal Projects/mobileTest1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.18-01.02.31:819][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.18-01.02.31:819][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/David/Documents/Unreal Projects/mobileTest1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.18-01.02.31:820][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.18-01.02.31:820][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.18-01.02.31:851][  0]LogInit: Computer: DAVOPCX64
+[2015.04.18-01.02.31:851][  0]LogInit: User: David
+[2015.04.18-01.02.31:851][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.18-01.02.31:851][  0]LogInit: High frequency timer resolution =3.418017 MHz
+[2015.04.18-01.02.31:851][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.04.18-01.02.31:852][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.18-01.02.31:852][  0]LogMemory: Process Physical Memory: 48.18 MB used, 48.18 MB peak
+[2015.04.18-01.02.31:852][  0]LogMemory: Process Virtual Memory: 28.52 MB used, 28.52 MB peak
+[2015.04.18-01.02.31:852][  0]LogMemory: Physical Memory: 2999.92 MB used, 8073.93 MB total
+[2015.04.18-01.02.31:852][  0]LogMemory: Virtual Memory: 281.11 MB used, 8388608.00 MB total
+[2015.04.18-01.02.31:876][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.04.18-01.02.31:876][  0]LogD3D11RHI: Adapter has 1003MB of dedicated video memory, 0MB of dedicated system memory, and 3780MB of shared system memory, 2 output[s]
+[2015.04.18-01.02.31:879][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.04.18-01.02.31:879][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.04.18-01.02.31:879][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.18-01.02.31:884][  0]LogRHI: Texture pool is 702 MB (70% of 1003 MB)
+[2015.04.18-01.02.31:896][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.18-01.02.31:950][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.18-01.02.32:018][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.18-01.02.32:018][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.18-01.02.32:116][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.18-01.02.34:699][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.18-01.02.35:310][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.18-01.02.35:379][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.18-01.02.35:479][  0]LogDerivedDataCache: Loaded boot cache 0.10s 39MB C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.18-01.02.35:479][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.18-01.02.35:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.18-01.02.35:479][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.18-01.02.35:613][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.18-01.02.35:624][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.18-01.02.36:011][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.18-01.02.36:011][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.18-01.02.36:452][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.18-01.02.36:541][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.18-01.02.37:378][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.18-01.02.37:587][  0]SourceControl: Info Source control is disabled
+[2015.04.18-01.02.37:587][  0]SourceControl: Info Source control is disabled
+[2015.04.18-01.02.37:588][  0]SourceControl: Info Source control is disabled
+[2015.04.18-01.02.37:588][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.18-01.02.37:588][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.18-01.02.37:599][  0]SourceControl: Info Source control is disabled
+[2015.04.18-01.02.37:821][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.18-01.02.37:821][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.18-01.02.37:907][  0]LogEngine: Initializing Engine...
+[2015.04.18-01.02.41:118][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.18-01.02.41:132][  0]LogInit: FAudioDevice initialized.
+[2015.04.18-01.02.41:175][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.18-01.02.41:226][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.18-01.02.41:240][  0]LogInit: Texture streaming: Enabled
+[2015.04.18-01.02.41:345][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.18-01.02.41:345][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.18-01.02.41:345][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.18-01.02.41:345][  0]LogAnalytics: SetUserId 63bad7584199a80b18f5d19af3640327|847b49c4ca63452480b7439378717c51|d31b456e-061b-4b71-818e-0d4e346df735
+[2015.04.18-01.02.41:346][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.18-01.02.41:369][  0]LogInit: Transaction tracking system initialized
+[2015.04.18-01.02.41:554][  0]BlueprintLog: New page: Editor Load
+[2015.04.18-01.02.41:587][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.04.18-01.02.41:587][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.18-01.02.42:188][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.18-01.02.42:603][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.18-01.02.43:194][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.18-01.02.43:228][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.18-01.02.43:229][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.18-01.02.43:234][  0]LogConsoleResponse:Display: 
+[2015.04.18-01.02.43:372][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.18-01.02.43:523][  0]SourceControl: Info Source control is disabled
+[2015.04.18-01.02.43:524][  0]Cmd: MAP LOAD FILE="../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Content/Bounce_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.18-01.02.43:581][  0]LightingResults: New page: Lighting Build
+[2015.04.18-01.02.43:604][  0]MapCheck: New page: Map Check
+[2015.04.18-01.02.43:604][  0]LightingResults: New page: Lighting Build
+[2015.04.18-01.02.43:617][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013134680
+[2015.04.18-01.02.45:777][  0]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpMaterial.cpp (136) 4 : NpMaterial::setRestitution: Invalid value -100.000000 was clamped to [0,1]!
+[2015.04.18-01.02.45:777][  0]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpMaterial.cpp (136) 4 : NpMaterial::setRestitution: Invalid value 1.500000 was clamped to [0,1]!
+[2015.04.18-01.02.45:793][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.18-01.02.45:814][  0]LogAIModule: Creating AISystem for world Bounce_MAP
+[2015.04.18-01.02.45:815][  0]Cmd: MAP CHECKDEP
+[2015.04.18-01.02.45:815][  0]MapCheck: New page: Bounce_MAP - Apr 17, 2015, 11:02:45 AM
+[2015.04.18-01.02.45:898][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.875ms to complete.
+[2015.04.18-01.02.45:898][  0]LogFileHelpers: Loading map 'Bounce_MAP' took 2.374
+[2015.04.18-01.02.46:215][  0]LogCollectionManager: Loaded 0 collections in 0.001814 seconds
+[2015.04.18-01.02.46:231][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 1696 classes and 261 folders.
+[2015.04.18-01.02.46:279][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2015.04.18-01.02.46:397][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.18-01.02.46:399][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.18-01.02.46:412][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.18-01.02.46:436][  0]LogLoad: Full Startup: 18.66 seconds (BP compile: 0.39 seconds)
+[2015.04.18-01.02.46:456][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/MapStuff'
+[2015.04.18-01.02.46:625][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.18-01.02.46:878][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x656 (Frame:6).
+[2015.04.18-01.02.47:138][  4]LogAssetRegistry: Asset discovery search completed in 5.5604 seconds
+[2015.04.18-01.05.43:542][888]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.18-01.05.45:997][143]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/MapStuff'
+[2015.04.18-01.05.46:588][181]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/Actors'
+[2015.04.18-01.05.49:114][445]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/PlayerStuff'
+[2015.04.18-01.06.34:736][715]LogRenderer:Warning: Reallocating scene render targets to support 1208x808 (Frame:13346).
+[2015.04.18-01.08.55:811][603]LogEditorTransaction: Undo Make New Scene Root
+[2015.04.18-01.12.47:209][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000161C7420
+[2015.04.18-01.12.47:218][607]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Bounce_MAP' took 0.038
+[2015.04.18-01.12.47:272][607]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerStuff/Player_BP] ([1] browsable assets)...
+[2015.04.18-01.12.47:324][607]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/PlayerStuff/Player_BP.Player_BP]
+[2015.04.18-01.12.47:324][607]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerStuff/Player_BP]
+[2015.04.18-01.12.47:719][607]LogSavePackage: Save=336.897980ms
+[2015.04.18-01.12.47:720][607]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Player_BP_Auto19CB2026B45937B97CA5E848B2D11F7A1.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Autosaves/Game/BluePrints/PlayerStuff/Player_BP_Auto1.uasset'
+[2015.04.18-01.12.47:775][607]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerStuff/BackupPlayer] ([1] browsable assets)...
+[2015.04.18-01.12.47:795][607]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/PlayerStuff/BackupPlayer.BackupPlayer]
+[2015.04.18-01.12.47:795][607]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerStuff/BackupPlayer]
+[2015.04.18-01.12.48:062][607]LogSavePackage: Save=263.608704ms
+[2015.04.18-01.12.48:063][607]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/BackupPlayer_Auto1C6C33907422C8ACE51E7B5B89CB2200A.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Autosaves/Game/BluePrints/PlayerStuff/BackupPlayer_Auto1.uasset'
+[2015.04.18-01.12.48:069][607]LogFileHelpers: Auto-saving content packages took 0.851
+[2015.04.18-01.29.33:280][906]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\TireObj.obj)
+[2015.04.18-01.29.57:306][906]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\TireObj.obj
+[2015.04.18-01.29.57:314][906]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.18-01.29.57:319][906]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/None'
+[2015.04.18-01.29.57:319][906]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/None'
+[2015.04.18-01.29.57:319][906]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/BluePrints/PlayerStuff/None.None'
+[2015.04.18-01.29.57:327][906]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.04.18-01.29.57:355][906]LogFbx:Warning: Triangulating static mesh default
+[2015.04.18-01.29.57:438][906]LogFbx: == Initial material list:
+[2015.04.18-01.29.57:438][906]LogFbx: 0: None
+[2015.04.18-01.29.57:439][906]LogFbx: == After sorting:
+[2015.04.18-01.29.57:439][906]LogFbx: 0: None
+[2015.04.18-01.29.57:439][906]LogFbx: == Mapping table:
+[2015.04.18-01.29.57:439][906]LogFbx:   sort 0 -> 0
+[2015.04.18-01.29.57:519][906]LogStaticMesh: Building static mesh TireObj...
+[2015.04.18-01.29.57:666][906]LogStaticMesh: Built static mesh [172.046829ms] /Game/BluePrints/PlayerStuff/TireObj.TireObj
+[2015.04.18-01.29.57:669][906]LogStaticMesh:Warning: TireObj has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.18-01.30.02:500][906]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.18-01.30.02:500][906]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.04.18-01.30.02:577][906]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.18-01.30.02:577][906]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/PlayerStuff'
+[2015.04.18-01.30.02:821][907]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Bounce_MAP' took 0.028
+[2015.04.18-01.30.02:876][907]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerStuff/TireObj] ([1] browsable assets)...
+[2015.04.18-01.30.02:966][907]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BluePrints/PlayerStuff/TireObj.TireObj]
+[2015.04.18-01.30.02:966][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerStuff/TireObj]
+[2015.04.18-01.30.03:095][907]LogSavePackage: Save=119.286125ms
+[2015.04.18-01.30.03:095][907]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/TireObj_Auto25D2874AC48AE9D86FD4E6C8E6B329010.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Autosaves/Game/BluePrints/PlayerStuff/TireObj_Auto2.uasset'
+[2015.04.18-01.30.03:149][907]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerStuff/None] ([1] browsable assets)...
+[2015.04.18-01.30.03:171][907]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BluePrints/PlayerStuff/None.Material_0]
+[2015.04.18-01.30.03:171][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerStuff/None]
+[2015.04.18-01.30.03:324][907]LogSavePackage: Save=149.865555ms
+[2015.04.18-01.30.03:325][907]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/None_Auto2DE3D74F747E1C4E7FAEE4C9687EFE4BA.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Autosaves/Game/BluePrints/PlayerStuff/None_Auto2.uasset'
+[2015.04.18-01.30.03:330][907]LogFileHelpers: Auto-saving content packages took 0.508
+[2015.04.18-01.30.09:755][334]LogActorFactory: Actor Factory created TireObj
+[2015.04.18-01.30.10:496][414]LogActorFactory: Actor Factory created TireObj
+[2015.04.18-01.30.30:326][323]Cmd: DELETE
+[2015.04.18-01.30.30:326][323]Cmd: ACTOR DELETE
+[2015.04.18-01.30.30:328][323]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.18-01.30.30:352][323]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.04.18-01.30.40:505][ 80]LogAssetTools:Warning: Failed to import 'C:\Users\David\Desktop\carobj.mtl'. Unknown extension 'mtl'.
+[2015.04.18-01.30.53:470][449]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\TireObj.obj)
+[2015.04.18-01.31.00:957][449]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\TireObj.obj
+[2015.04.18-01.31.00:963][449]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.18-01.31.00:966][449]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/None'
+[2015.04.18-01.31.00:966][449]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/None'
+[2015.04.18-01.31.00:966][449]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/BluePrints/PlayerStuff/None.None'
+[2015.04.18-01.31.00:972][449]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2015.04.18-01.31.00:980][449]LogFbx:Warning: Triangulating static mesh default
+[2015.04.18-01.31.01:056][449]LogFbx: == Initial material list:
+[2015.04.18-01.31.01:056][449]LogFbx: 0: None
+[2015.04.18-01.31.01:056][449]LogFbx: == After sorting:
+[2015.04.18-01.31.01:056][449]LogFbx: 0: None
+[2015.04.18-01.31.01:056][449]LogFbx: == Mapping table:
+[2015.04.18-01.31.01:056][449]LogFbx:   sort 0 -> 0
+[2015.04.18-01.31.01:058][449]LogStaticMesh: Building static mesh TireObj...
+[2015.04.18-01.31.01:067][449]LogStaticMesh: Built static mesh [9.104109ms] /Game/BluePrints/PlayerStuff/TireObj.TireObj
+[2015.04.18-01.31.01:069][449]LogStaticMesh:Warning: TireObj has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.18-01.31.03:442][449]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.18-01.31.03:453][449]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\carobj.obj)
+[2015.04.18-01.31.03:459][449]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\carobj.obj
+[2015.04.18-01.31.03:465][449]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.18-01.31.03:467][449]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/None'
+[2015.04.18-01.31.03:467][449]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/None'
+[2015.04.18-01.31.03:467][449]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/BluePrints/PlayerStuff/None.None'
+[2015.04.18-01.31.03:475][449]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.04.18-01.31.03:484][449]LogFbx:Warning: Triangulating static mesh default
+[2015.04.18-01.31.03:564][449]LogFbx: == Initial material list:
+[2015.04.18-01.31.03:564][449]LogFbx: 0: None
+[2015.04.18-01.31.03:564][449]LogFbx: == After sorting:
+[2015.04.18-01.31.03:564][449]LogFbx: 0: None
+[2015.04.18-01.31.03:564][449]LogFbx: == Mapping table:
+[2015.04.18-01.31.03:564][449]LogFbx:   sort 0 -> 0
+[2015.04.18-01.31.03:565][449]LogStaticMesh: Building static mesh carobj...
+[2015.04.18-01.31.03:576][449]LogStaticMesh: Built static mesh [10.361271ms] /Game/BluePrints/PlayerStuff/carobj.carobj
+[2015.04.18-01.31.03:578][449]LogStaticMesh:Warning: carobj has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.18-01.31.04:343][449]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.18-01.31.04:376][449]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.18-01.31.04:377][449]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/PlayerStuff'
+[2015.04.18-01.31.04:377][449]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/PlayerStuff'
+[2015.04.18-01.31.06:925][667]LogActorFactory: Actor Factory created carobj
+[2015.04.18-01.31.06:926][667]LogActorFactory: Actor Factory created TireObj
+[2015.04.18-01.31.07:710][750]LogActorFactory: Actor Factory created carobj
+[2015.04.18-01.31.07:733][750]LogActorFactory: Actor Factory created TireObj
+[2015.04.18-01.31.24:768][377]LogActorFactory: Actor Factory created carobj
+[2015.04.18-01.31.24:770][377]LogActorFactory: Actor Factory created TireObj
+[2015.04.18-01.31.25:276][422]LogActorFactory: Actor Factory created carobj
+[2015.04.18-01.31.25:299][422]LogActorFactory: Actor Factory created TireObj
+[2015.04.18-01.32.05:723][876]LogRenderer:Warning: Reallocating scene render targets to support 1432x1048 (Frame:49918).
+[2015.04.18-01.33.24:127][216]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.04.18-01.33.24:145][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.18-01.33.24:204][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.18-01.33.24:204][216]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.18-01.33.24:204][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.18-01.33.24:204][216]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.18-01.33.24:215][216]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.04.18-01.33.24:221][216]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.18-01.33.24:244][216]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.04.18-01.33.25:395][285]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.04.18-01.33.25:395][285]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.18-01.33.25:395][285]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.18-01.33.32:521][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022DAD3A0
+[2015.04.18-01.33.32:521][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001688EB60
+[2015.04.18-01.33.36:473][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D0F4860
+[2015.04.18-01.34.29:591][707]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\carobj.obj)
+[2015.04.18-01.34.31:344][707]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\TireObj.obj)
+[2015.04.18-01.34.33:902][939]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/PlayerStuff'
+[2015.04.18-01.34.39:971][154]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\carobj.obj)
+[2015.04.18-01.35.06:957][154]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\carobj.obj
+[2015.04.18-01.35.06:961][154]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.18-01.35.06:964][154]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/NewFolder/None'
+[2015.04.18-01.35.06:965][154]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/NewFolder/None'
+[2015.04.18-01.35.06:965][154]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/BluePrints/PlayerStuff/NewFolder/None.None'
+[2015.04.18-01.35.06:991][154]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2015.04.18-01.35.07:000][154]LogFbx: == Initial material list:
+[2015.04.18-01.35.07:000][154]LogFbx: 0: None
+[2015.04.18-01.35.07:000][154]LogFbx: == After sorting:
+[2015.04.18-01.35.07:000][154]LogFbx: 0: None
+[2015.04.18-01.35.07:000][154]LogFbx: == Mapping table:
+[2015.04.18-01.35.07:000][154]LogFbx:   sort 0 -> 0
+[2015.04.18-01.35.07:001][154]LogStaticMesh: Building static mesh carobj...
+[2015.04.18-01.35.07:006][154]LogStaticMesh: Built static mesh [5.167909ms] /Game/BluePrints/PlayerStuff/NewFolder/carobj.carobj
+[2015.04.18-01.35.07:020][154]LogStaticMesh:Warning: carobj has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.18-01.35.08:431][154]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.18-01.35.08:432][154]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.04.18-01.35.08:486][154]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\TireObj.obj)
+[2015.04.18-01.35.08:494][154]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\TireObj.obj
+[2015.04.18-01.35.08:497][154]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.18-01.35.08:500][154]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/NewFolder/None'
+[2015.04.18-01.35.08:500][154]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/NewFolder/None'
+[2015.04.18-01.35.08:500][154]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/BluePrints/PlayerStuff/NewFolder/None.None'
+[2015.04.18-01.35.08:506][154]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2015.04.18-01.35.08:518][154]LogFbx: == Initial material list:
+[2015.04.18-01.35.08:518][154]LogFbx: 0: None
+[2015.04.18-01.35.08:518][154]LogFbx: == After sorting:
+[2015.04.18-01.35.08:518][154]LogFbx: 0: None
+[2015.04.18-01.35.08:518][154]LogFbx: == Mapping table:
+[2015.04.18-01.35.08:518][154]LogFbx:   sort 0 -> 0
+[2015.04.18-01.35.08:519][154]LogStaticMesh: Building static mesh TireObj...
+[2015.04.18-01.35.08:523][154]LogStaticMesh: Built static mesh [3.899337ms] /Game/BluePrints/PlayerStuff/NewFolder/TireObj.TireObj
+[2015.04.18-01.35.08:524][154]LogStaticMesh:Warning: TireObj has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.18-01.35.09:096][154]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.18-01.35.09:123][154]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.18-01.35.09:124][154]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/PlayerStuff/NewFolder'
+[2015.04.18-01.35.09:124][154]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/PlayerStuff/NewFolder'
+[2015.04.18-01.35.47:174][861]LogActorFactory: Actor Factory created TireObj
+[2015.04.18-01.35.48:075][945]LogActorFactory: Actor Factory created TireObj
+[2015.04.18-01.36.24:945][398]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\carobj.obj)
+[2015.04.18-01.36.43:581][398]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\TireObj.obj)
+[2015.04.18-01.36.54:155][617]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\carobj.obj)
+[2015.04.18-01.37.01:037][617]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\carobj.obj
+[2015.04.18-01.37.01:041][617]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.18-01.37.01:060][617]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/NewFolder/None'
+[2015.04.18-01.37.01:060][617]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/NewFolder/None'
+[2015.04.18-01.37.01:060][617]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/BluePrints/PlayerStuff/NewFolder/None.None'
+[2015.04.18-01.37.01:068][617]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2015.04.18-01.37.01:076][617]LogFbx: == Initial material list:
+[2015.04.18-01.37.01:076][617]LogFbx: 0: None
+[2015.04.18-01.37.01:076][617]LogFbx: == After sorting:
+[2015.04.18-01.37.01:076][617]LogFbx: 0: None
+[2015.04.18-01.37.01:076][617]LogFbx: == Mapping table:
+[2015.04.18-01.37.01:076][617]LogFbx:   sort 0 -> 0
+[2015.04.18-01.37.01:089][617]LogStaticMesh: Building static mesh carobj...
+[2015.04.18-01.37.01:094][617]LogStaticMesh: Built static mesh [17.045555ms] /Game/BluePrints/PlayerStuff/NewFolder/carobj.carobj
+[2015.04.18-01.37.01:116][617]LogStaticMesh:Warning: carobj has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.18-01.37.03:974][617]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.18-01.37.03:974][617]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.04.18-01.37.04:041][617]LogAssetTools:Warning: Failed to import 'C:\Users\David\Desktop\carobj.mtl'. Unknown extension 'mtl'.
+[2015.04.18-01.37.04:042][617]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\David\Desktop\TireObj.obj)
+[2015.04.18-01.37.04:048][617]LogFbx: Loading FBX Scene from C:\Users\David\Desktop\TireObj.obj
+[2015.04.18-01.37.04:051][617]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.18-01.37.04:053][617]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/NewFolder/None'
+[2015.04.18-01.37.04:053][617]LogLinker:Warning: Can't find file '/Game/BluePrints/PlayerStuff/NewFolder/None'
+[2015.04.18-01.37.04:053][617]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/BluePrints/PlayerStuff/NewFolder/None.None'
+[2015.04.18-01.37.04:059][617]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2015.04.18-01.37.04:068][617]LogFbx: == Initial material list:
+[2015.04.18-01.37.04:068][617]LogFbx: 0: None
+[2015.04.18-01.37.04:068][617]LogFbx: == After sorting:
+[2015.04.18-01.37.04:068][617]LogFbx: 0: None
+[2015.04.18-01.37.04:068][617]LogFbx: == Mapping table:
+[2015.04.18-01.37.04:068][617]LogFbx:   sort 0 -> 0
+[2015.04.18-01.37.04:070][617]LogStaticMesh: Building static mesh TireObj...
+[2015.04.18-01.37.04:074][617]LogStaticMesh: Built static mesh [4.378562ms] /Game/BluePrints/PlayerStuff/NewFolder/TireObj.TireObj
+[2015.04.18-01.37.04:076][617]LogStaticMesh:Warning: TireObj has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.18-01.37.04:577][617]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.18-01.37.04:616][617]LogAssetTools:Warning: Failed to import 'C:\Users\David\Desktop\TireObj.mtl'. Unknown extension 'mtl'.
+[2015.04.18-01.37.04:617][617]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.18-01.37.04:617][617]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/PlayerStuff/NewFolder'
+[2015.04.18-01.37.04:618][617]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BluePrints/PlayerStuff/NewFolder'
+[2015.04.18-01.37.56:005][248]LogStaticMesh: Building static mesh TireObj...
+[2015.04.18-01.37.56:016][248]LogStaticMesh: Built static mesh [11.011063ms] /Game/BluePrints/PlayerStuff/NewFolder/TireObj.TireObj
+[2015.04.18-01.37.56:039][248]LogStaticMesh:Warning: TireObj has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.18-01.38.44:772][ 49]LogStaticMesh:Warning: TireObj has degenerate tangent bases which will result in incorrect shading. 
+[2015.04.18-01.40.06:116][754]LogSavePackage: Save=39.152821ms
+[2015.04.18-01.40.06:116][754]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Bounce_MAP_Auto3F8770BDC40AAA33B9771DC946ABA8347.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Autosaves/Game/Bounce_MAP_Auto3.umap'
+[2015.04.18-01.40.06:123][754]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Bounce_MAP' took 0.209
+[2015.04.18-01.40.06:123][754]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.209
+[2015.04.18-01.40.06:171][754]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerStuff/NewFolder/carobj] ([1] browsable assets)...
+[2015.04.18-01.40.06:218][754]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BluePrints/PlayerStuff/NewFolder/carobj.carobj]
+[2015.04.18-01.40.06:218][754]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerStuff/NewFolder/carobj]
+[2015.04.18-01.40.06:409][754]LogSavePackage: Save=186.096497ms
+[2015.04.18-01.40.06:409][754]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/carobj_Auto3C07770384F36D0D9305899A39544F568.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Autosaves/Game/BluePrints/PlayerStuff/NewFolder/carobj_Auto3.uasset'
+[2015.04.18-01.40.06:462][754]OBJ SavePackage: Generating thumbnails for [4] asset(s) in package [/Game/BluePrints/PlayerStuff/NewFolder/None] ([4] browsable assets)...
+[2015.04.18-01.40.06:517][754]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BluePrints/PlayerStuff/NewFolder/None.Material_3]
+[2015.04.18-01.40.06:541][754]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BluePrints/PlayerStuff/NewFolder/None.Material_6]
+[2015.04.18-01.40.06:558][754]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BluePrints/PlayerStuff/NewFolder/None.Material_5]
+[2015.04.18-01.40.06:573][754]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BluePrints/PlayerStuff/NewFolder/None.Material_4]
+[2015.04.18-01.40.06:573][754]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerStuff/NewFolder/None]
+[2015.04.18-01.40.07:635][754]LogSavePackage: Save=1058.228760ms
+[2015.04.18-01.40.07:636][754]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/None_Auto39266A48B4256BEBE51CCF99568965797.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Autosaves/Game/BluePrints/PlayerStuff/NewFolder/None_Auto3.uasset'
+[2015.04.18-01.40.07:688][754]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerStuff/NewFolder/TireObj] ([1] browsable assets)...
+[2015.04.18-01.40.07:721][754]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BluePrints/PlayerStuff/NewFolder/TireObj.TireObj]
+[2015.04.18-01.40.07:721][754]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerStuff/NewFolder/TireObj]
+[2015.04.18-01.40.07:923][754]LogSavePackage: Save=199.696487ms
+[2015.04.18-01.40.07:924][754]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/TireObj_Auto324320F14423495BE1B5EB2A4EDB028E0.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Autosaves/Game/BluePrints/PlayerStuff/NewFolder/TireObj_Auto3.uasset'
+[2015.04.18-01.40.07:928][754]LogFileHelpers: Auto-saving content packages took 1.805
+[2015.04.18-01.40.23:846][602]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_147' or package '/Engine/Transient'.
+[2015.04.18-01.40.23:846][602]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_144' or package '/Engine/Transient'.
+[2015.04.18-01.40.24:249][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000167980E0
+[2015.04.18-01.40.24:249][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D1AE480
+[2015.04.18-01.40.42:727][723]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.18-01.40.42:727][723]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.18-01.40.42:728][723]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.18-01.40.42:747][723]LogEditorActor: Deleted 3 Actors (0.021 secs)
+[2015.04.18-01.40.45:340][ 30]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.18-01.40.45:345][ 30]LogPlayLevel: [PIE] Compiling Player_BP before PIE...
+[2015.04.18-01.40.45:449][ 30]LogPlayLevel: [PIE] Compiling BounceGM before PIE...
+[2015.04.18-01.40.45:517][ 30]LogPlayLevel: [PIE] Compiling BackupPlayer before PIE...
+[2015.04.18-01.40.45:608][ 30]LogPlayLevel: PIE:  Blueprint regeneration took 268 ms (3 blueprints)
+[2015.04.18-01.40.45:608][ 30]PIE: New page: PIE session: Bounce_MAP (Apr 17, 2015, 11:40:45 AM)
+[2015.04.18-01.40.45:612][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003268s)
+[2015.04.18-01.40.45:613][ 30]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2015.04.18-01.40.45:613][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bounce_MAP.Bounce_MAP to /Game/UEDPIE_0_Bounce_MAP.Bounce_MAP (0.004310s)
+[2015.04.18-01.40.45:725][ 30]LogWorld: Game class is 'BounceGM_C'
+[2015.04.18-01.40.45:729][ 30]LogAIModule: Creating AISystem for world Bounce_MAP
+[2015.04.18-01.40.45:742][ 30]LogWorld: Bringing World /Game/UEDPIE_0_Bounce_MAP.Bounce_MAP up for play (max tick rate 0) at 2015.04.17-18.40.45
+[2015.04.18-01.40.45:744][ 30]LogWorld: Bringing up level for play took: 0.013957
+[2015.04.18-01.40.45:748][ 30]PIE: Info Play in editor start time for /Game/UEDPIE_0_Bounce_MAP 0.049
+[2015.04.18-01.40.58:567][545]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025A99440
+[2015.04.18-01.41.01:838][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bounce_MAP" FILE="../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Content/Bounce_MAP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-01.41.01:910][907]LogSavePackage: Save=36.867283ms
+[2015.04.18-01.41.01:910][907]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Bounce_MAP5BB625A04E803E0E794B788CB99FFAFB.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Content/Bounce_MAP.umap'
+[2015.04.18-01.41.01:948][907]LogFileHelpers: Saving map 'Bounce_MAP' took 0.207
+[2015.04.18-01.41.01:953][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerStuff/Player_BP" FILE="../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Content/BluePrints/PlayerStuff/Player_BP.uasset" SILENT=true
+[2015.04.18-01.41.02:062][907]LogSavePackage: Save=77.205002ms
+[2015.04.18-01.41.02:062][907]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/Player_BP58748ED54C1204CCA2C8BDACBA0AD7F3.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Content/BluePrints/PlayerStuff/Player_BP.uasset'
+[2015.04.18-01.41.02:278][907]LogSavePackage: Save=186.532135ms
+[2015.04.18-01.41.02:278][907]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Saved/BackupPlayer9168EBAB44C0BCCC5BEE07A7FACED0DC.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/mobileTest1/Content/BluePrints/PlayerStuff/BackupPlayer.uasset'
+[2015.04.18-01.41.03:755][ 13]Cmd: QUIT_EDITOR
+[2015.04.18-01.41.04:002][ 13]LogExit: Preparing to exit.
+[2015.04.18-01.41.04:711][ 13]LogExit: Editor shut down
+[2015.04.18-01.41.04:711][ 13]LogExit: Transaction tracking system shut down
+[2015.04.18-01.41.04:712][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D7A5760
+[2015.04.18-01.41.04:712][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000136C80E0
+[2015.04.18-01.41.04:712][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015BD1760
+[2015.04.18-01.41.04:714][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B1F4360
+[2015.04.18-01.41.04:714][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B1C2660
+[2015.04.18-01.41.04:770][ 13]LogExit: Object subsystem successfully closed.
+[2015.04.18-01.41.04:814][ 13]LogModuleManager: Shutting down and abandoning module MaterialEditor (180)
+[2015.04.18-01.41.04:814][ 13]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (179)
+[2015.04.18-01.41.04:814][ 13]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (178)
+[2015.04.18-01.41.04:814][ 13]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.18-01.41.04:814][ 13]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.18-01.41.04:815][ 13]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.18-01.41.05:583][ 13]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.18-01.41.05:583][ 13]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.18-01.41.05:583][ 13]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.18-01.41.05:583][ 13]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.18-01.41.05:584][ 13]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.18-01.41.05:585][ 13]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.18-01.41.05:585][ 13]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.18-01.41.05:585][ 13]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.18-01.41.05:585][ 13]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.18-01.41.05:623][ 13]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.18-01.41.05:623][ 13]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.18-01.41.05:623][ 13]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.18-01.41.05:624][ 13]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.18-01.41.05:624][ 13]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.18-01.41.05:624][ 13]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.18-01.41.05:625][ 13]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.18-01.41.05:796][ 13]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.18-01.41.05:797][ 13]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.18-01.41.05:797][ 13]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.18-01.41.05:797][ 13]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.18-01.41.05:897][ 13]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.18-01.41.05:897][ 13]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.18-01.41.05:899][ 13]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.18-01.41.05:902][ 13]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.18-01.41.05:902][ 13]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.18-01.41.05:902][ 13]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.18-01.41.05:902][ 13]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.18-01.41.05:902][ 13]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.18-01.41.05:903][ 13]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.18-01.41.05:903][ 13]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.18-01.41.05:903][ 13]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.18-01.41.05:903][ 13]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.18-01.41.05:903][ 13]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.18-01.41.05:979][ 13]LogDerivedDataCache: Shutdown
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.18-01.41.05:979][ 13]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.18-01.41.05:983][ 13]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.18-01.41.05:983][ 13]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.18-01.41.05:983][ 13]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.18-01.41.05:983][ 13]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.18-01.41.05:983][ 13]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.18-01.41.05:983][ 13]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.18-01.41.05:983][ 13]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.18-01.41.05:983][ 13]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.18-01.41.05:983][ 13]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.18-01.41.05:983][ 13]LogExit: Exiting.
+[2015.04.18-01.41.06:003][ 13]Log file closed, 04/17/15 18:41:06

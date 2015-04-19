@@ -1,0 +1,1 @@
+../../../mobileTest1/mobileTest1.uproject  /Game/Bounce_MAP -Messaging -SessionId=30DF3CDA4C0D323799B19ABBDA563845 -SessionOwner=David -SessionName='Play On Device' -iterative
